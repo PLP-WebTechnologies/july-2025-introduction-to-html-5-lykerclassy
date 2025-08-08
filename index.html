@@ -2,44 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The introduction to html</title>
-  <meta name="description" content="A beginner's guide to understanding the basics of HTML5, including semantic structure with header, nav, main, article, and footer elements." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A sample semantic, accessible, and SEO-friendly HTML5 page" />
+  <meta name="keywords" content="HTML5, semantic, accessible, SEO, sample page" />
+  <meta name="author" content="Your Name" />
+  <title>My Accessible & SEO-Friendly HTML5 Page</title>
 </head>
 <body>
-  <header role="banner">
-    <h1>The Introduction to HTML</h1>
-    <nav role="navigation" aria-label="Primary navigation">
+  <header>
+    <h1>Welcome to My Web Page</h1>
+    <nav aria-label="Main navigation">
       <ul>
-        <li><a href="#what-is-html">What is HTML?</a></li>
-        <li><a href="#semantic-elements">Semantic Elements</a></li>
-        <li><a href="#accessibility">Accessibility</a></li>
+        <li><a href="#about" title="Learn more about us">About</a></li>
+        <li><a href="#services" title="Discover our services">Services</a></li>
+        <li><a href="#contact" title="Get in touch with us">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main role="main">
-    <article>
-      <section id="what-is-html">
-        <h2>What is HTML?</h2>
-        <p>HTML (HyperText Markup Language) is the standard language for creating web pages and web applications.</p>
-        <img src="html-logo.png" alt="HTML5 logo" />
-      </section>
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are committed to building websites that are accessible, semantic, and optimized for search engines.</p>
+    </section>
 
-      <section id="semantic-elements">
-        <h2>Semantic Elements in HTML5</h2>
-        <p>HTML5 introduces semantic elements such as <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code> to improve the structure and accessibility of webpages.</p>
-      </section>
-
-      <section id="accessibility">
-        <h2>Improving Accessibility with Semantic HTML</h2>
-        <p>Using semantic tags helps screen readers and other assistive technologies understand the structure of a page, making content easier to navigate for users with disabilities.</p>
-      </section>
-    </article>
+    <section id="services">
+      <h2>Our Services</h2>
+      <article>
+        <h3>Web Development</h3>
+        <p>We create responsive and user-friendly websites using modern web technologies.</p>
+      </article>
+      <article>
+        <h3>SEO Optimization</h3>
+        <p>Our SEO strategies help your content rank better on search engines.</p>
+      </article>
+    </section>
   </main>
-
-  <footer role="contentinfo">
-    <p>© 2025 The Introduction to HTML. All rights reserved.</p>
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
   </footer>
 </body>
 </html>
